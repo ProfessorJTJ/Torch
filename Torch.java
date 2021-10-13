@@ -1,6 +1,5 @@
 package anywheresoftware.b4a.torch;
 
-
 import anywheresoftware.b4a.BA;
 import android.content.Context;
 import android.hardware.camera2.CameraManager;
