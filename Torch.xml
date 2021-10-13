@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <doclet-version-NOT-library-version>1.02</doclet-version-NOT-library-version>
+    <class>
+        <name>anywheresoftware.b4a.torch.Torch</name>
+        <shortname>Torch</shortname>
+        <objectwrapper>android.hardware.camera2.CameraManager</objectwrapper>
+        <owner>process</owner>
+        <method>
+            <name>setTorchMode</name>
+            <comment></comment>
+            <returntype>boolean</returntype>
+            <parameter>
+                <name>cameraId</name>
+                <type>java.lang.String</type>
+            </parameter>
+            <parameter>
+                <name>enabled</name>
+                <type>boolean</type>
+            </parameter>
+        </method>
+        <method>
+            <name>IsInitialized</name>
+            <comment></comment>
+            <returntype>boolean</returntype>
+        </method>
+        <method>
+            <name>Initialize</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>ba</name>
+                <type>anywheresoftware.b4a.BA</type>
+            </parameter>
+        </method>
+        <property>
+            <name>CameraIDList</name>
+            <returntype>anywheresoftware.b4a.objects.collections.List</returntype>
+            <comment></comment>
+        </property>
+    </class>
+    <version>1.0</version>
+</root>
